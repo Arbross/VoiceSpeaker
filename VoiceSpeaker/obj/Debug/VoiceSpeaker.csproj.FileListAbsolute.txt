@@ -1,0 +1,15 @@
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\bin\Debug\VoiceSpeaker.exe.config
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\bin\Debug\VoiceSpeaker.exe
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\bin\Debug\VoiceSpeaker.pdb
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker.csproj.AssemblyReference.cache
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\MainWindow.g.cs
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\App.g.cs
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker_MarkupCompile.cache
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker_MarkupCompile.lref
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\MainWindow.baml
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker.g.resources
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker.Properties.Resources.resources
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker.csproj.GenerateResource.cache
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker.csproj.CoreCompileInputs.cache
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker.exe
+D:\Victor\repos\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker.pdb
