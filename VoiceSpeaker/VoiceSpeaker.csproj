@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C572020F-A487-466D-BA80-0CC2D260848A}</ProjectGuid>
+    <ProjectGuid>{3ADE9BCE-2F15-46B7-9D4C-36A5C4459A96}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>VoiceSpeaker</RootNamespace>
     <AssemblyName>VoiceSpeaker</AssemblyName>
@@ -37,7 +37,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Speech" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />

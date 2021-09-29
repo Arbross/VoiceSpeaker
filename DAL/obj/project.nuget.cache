@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8+RD/bh0TWqP8ot2aqSHrnyGR9arPq1SG8io4D1M2tT3H9HuC/Z2nlKLUkhlw67TONCZZ6WxlsjsWWrSevq+Qw==",
+  "dgSpecHash": "4mtz73kiousPP6q6cBCvmMlB2HOuBsXSuXpqygjuCNiCbqOFHoxQ9+hFqGjyR7YpWxQtN8RnUAIjS5TILB/eAw==",
   "success": true,
-  "projectFilePath": "D:\\Victor\\repos\\VoiceSpeaker\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\victor\\Desktop\\VoiceSpeaker\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victor\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\victor\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

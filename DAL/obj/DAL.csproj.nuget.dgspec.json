@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Victor\\repos\\VoiceSpeaker\\DAL\\DAL.csproj": {}
+    "C:\\Users\\victor\\Desktop\\VoiceSpeaker\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "D:\\Victor\\repos\\VoiceSpeaker\\DAL\\DAL.csproj": {
+    "C:\\Users\\victor\\Desktop\\VoiceSpeaker\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Victor\\repos\\VoiceSpeaker\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\victor\\Desktop\\VoiceSpeaker\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Victor\\repos\\VoiceSpeaker\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\victor\\Desktop\\VoiceSpeaker\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\victor\\.nuget\\packages\\",
-        "outputPath": "D:\\Victor\\repos\\VoiceSpeaker\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\victor\\Desktop\\VoiceSpeaker\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
