@@ -1,0 +1,34 @@
+﻿<Window x:Class="VoiceSpeaker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VoiceSpeaker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize" Background="#181735" WindowStyle="None">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Visibility="Visible" x:Name="WinUpper" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Click="btnClose_Click" x:Name="btnClose" BorderThickness="0" Grid.Column="8" Content="X" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
+            <Button Click="btnFullSize_Click" x:Name="btnFullSize" BorderThickness="0" Grid.Column="7" Content="@" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
+            <Button Click="btnHide_Click" x:Name="btnHide" BorderThickness="0" Grid.Column="6" Content="-" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
+            <Label Grid.Column="0" Grid.ColumnSpan="6" Background="Transparent" MouseDown="Button_MouseDown" BorderThickness="0" MouseMove="Button_MouseMove" MouseUp="Button_MouseUp"/>
+        </Grid>
+        <Grid x:Name="">
+        </Grid>
+    </Grid>
+</Window>
