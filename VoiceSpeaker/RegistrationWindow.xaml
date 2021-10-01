@@ -1,0 +1,157 @@
+﻿<Window x:Class="VoiceSpeaker.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VoiceSpeaker"
+        mc:Ignorable="d"
+        Title="RegistrationWindow" Height="450" Width="800" ResizeMode="NoResize" Background="#181735" WindowStyle="None">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Visibility="Visible" x:Name="WinUpper" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Click="btnClose_Click" x:Name="btnClose" BorderThickness="0" Grid.Column="8" Content="X" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
+            <Button Click="btnFullSize_Click" x:Name="btnFullSize" BorderThickness="0" Grid.Column="7" Content="@" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
+            <Button Click="btnHide_Click" x:Name="btnHide" BorderThickness="0" Grid.Column="6" Content="-" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
+            <Label Grid.Column="0" Grid.ColumnSpan="6" Background="Transparent" MouseDown="Button_MouseDown" BorderThickness="0" MouseMove="Button_MouseMove" MouseUp="Button_MouseUp"/>
+        </Grid>
+        <Grid x:Name="WinLogin" Visibility="Hidden" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.RowSpan="2" Content="Login" Foreground="White" FontSize="45" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="DemiBold"/>
+            <TextBox BorderThickness="0.1" Grid.Row="2" Width="400" Background="Transparent" Foreground="White" Text="Login" FontSize="35" VerticalContentAlignment="Center" x:Name="tbLoginLogin"/>
+            <TextBox BorderThickness="0.1" Grid.Row="3" Width="400" Background="Transparent" Foreground="White" Text="Password" FontSize="35" VerticalContentAlignment="Center" x:Name="tbPasswordLogin"/>
+            <Button x:Name="btnEnterLogin" BorderThickness="0" Grid.Row="4" Background="#FE6584" Foreground="White" Content="Enter" FontSize="25" FontWeight="DemiBold" Width="400" Margin="5" Click="btnEnterLogin_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="TextElement.FontFamily" Value="Font/#Dosis"/>
+                        <Setter Property="Background" Value="#FE6584"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF4C70"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="#FE6585">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </Grid>
+        <Grid x:Name="WinRegistration" Visibility="Hidden" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.RowSpan="2" Content="Registration" Foreground="White" FontSize="45" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="DemiBold"/>
+            <TextBox BorderThickness="0.1" Grid.Row="2" Width="400" Background="Transparent" Foreground="White" Text="Login" FontSize="35" VerticalContentAlignment="Center" x:Name="tbLoginRegistration"/>
+            <TextBox BorderThickness="0.1" Grid.Row="3" Width="400" Background="Transparent" Foreground="White" Text="Password" FontSize="35" VerticalContentAlignment="Center" x:Name="tbPasswordRegistration"/>
+            <Button x:Name="btnEnterRegistration" BorderThickness="0" Grid.Row="4" Background="#FE6584" Foreground="White" Content="Enter" FontSize="25" FontWeight="DemiBold" Width="400" Margin="5" Click="btnEnterRegistration_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="TextElement.FontFamily" Value="Font/#Dosis"/>
+                        <Setter Property="Background" Value="#FE6584"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF4C70"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="#FE6585">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </Grid>
+        <Grid x:Name="WinChoose" Visibility="Visible" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnMenuLogin" BorderThickness="0" Grid.Row="2" Background="#FE6584" Foreground="White" Content="Login" FontSize="25" FontWeight="DemiBold" Width="400" Margin="5" Click="btnMenuLogin_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="TextElement.FontFamily" Value="Font/#Dosis"/>
+                        <Setter Property="Background" Value="#FE6584"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF4C70"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="#FE6585">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            
+            <Button x:Name="btnMenuRegistration" BorderThickness="0" Grid.Row="3" Background="#FE6584" Foreground="White" Content="Registration" FontSize="25" FontWeight="DemiBold" Width="400" Margin="5" Click="btnMenuRegistration_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="TextElement.FontFamily" Value="Font/#Dosis"/>
+                        <Setter Property="Background" Value="#FE6584"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF4C70"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="#FE6585">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
