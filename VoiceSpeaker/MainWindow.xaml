@@ -26,43 +26,9 @@
             <Button Click="btnClose_Click" x:Name="btnClose" BorderThickness="0" Grid.Column="8" Content="X" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
             <Button Click="btnFullSize_Click" x:Name="btnFullSize" BorderThickness="0" Grid.Column="7" Content="@" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
             <Button Click="btnHide_Click" x:Name="btnHide" BorderThickness="0" Grid.Column="6" Content="-" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
-            <Label Grid.Column="0" x:Name="lbTestOutput" Grid.ColumnSpan="6" Background="Transparent" MouseDown="Button_MouseDown" BorderThickness="0" FontSize="15" FontWeight="DemiBold" Foreground="White"/>
+            <Label Grid.Column="0" Grid.ColumnSpan="6" Background="Transparent" MouseDown="Button_MouseDown" BorderThickness="0" MouseMove="Button_MouseMove" MouseUp="Button_MouseUp"/>
         </Grid>
-        <Grid x:Name="WinVoice" Grid.Row="1">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition Height="10*"/>
-            </Grid.RowDefinitions>
-            <Grid Grid.Row="0">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition Width="0.3*"/>
-                </Grid.ColumnDefinitions>
-                <TextBox Background="Transparent" BorderThickness="0" Grid.Column="0" Text="Message" x:Name="tbMessage" Foreground="White" FontSize="25" VerticalContentAlignment="Center" FontWeight="DemiBold"/>
-                <Button Click="btnEnterMessage_Click" BorderThickness="0" Grid.Column="1" Background="#FE6584" Foreground="White" Content="Enter" FontSize="25" FontWeight="DemiBold" x:Name="btnEnterMessage">
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="TextElement.FontFamily" Value="Font/#Dosis"/>
-                            <Setter Property="Background" Value="#FE6584"/>
-                            <Setter Property="Cursor" Value="Hand"/>
-                            <Style.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter Property="Background" Value="#FF4C70"/>
-                                </Trigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Border CornerRadius="15" Background="#FE6585">
-                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                            </Border>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
-            </Grid>
-            <ListBox Grid.Row="1" Background="Transparent" Foreground="White" BorderThickness="0" x:Name="lbOutput"/>
+        <Grid x:Name="">
         </Grid>
     </Grid>
 </Window>
