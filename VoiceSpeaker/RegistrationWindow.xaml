@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VoiceSpeaker"
         mc:Ignorable="d"
-        Title="RegistrationWindow" Height="450" Width="800" ResizeMode="NoResize" Background="#181735" WindowStyle="None">
+        Title="RegistrationWindow" Height="800" Width="800" ResizeMode="NoResize" Background="#181735" WindowStyle="None">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
@@ -30,10 +30,11 @@
         </Grid>
         <Grid x:Name="WinLogin" Visibility="Hidden" Grid.Row="1">
             <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
@@ -62,6 +63,39 @@
                     </ControlTemplate>
                 </Button.Template>
             </Button>
+            <Grid Grid.Row="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnForgotPassword" BorderThickness="0" Grid.Row="1" Background="Transparent" Foreground="White" Content="Forgot Password?" FontSize="25" FontWeight="DemiBold" Grid.Column="2" Click="btnEnterLogin_Click">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="TextElement.FontFamily" Value="Font/#Dosis"/>
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="Transparent"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border CornerRadius="15" Background="Transparent">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </Grid>
         </Grid>
         <Grid x:Name="WinRegistration" Visibility="Hidden" Grid.Row="1">
             <Grid.RowDefinitions>
@@ -71,11 +105,23 @@
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
-            <Label Grid.Row="0" Grid.RowSpan="2" Content="Registration" Foreground="White" FontSize="45" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="DemiBold"/>
-            <TextBox BorderThickness="0.1" Grid.Row="2" Width="400" Background="Transparent" Foreground="White" Text="Login" FontSize="35" VerticalContentAlignment="Center" x:Name="tbLoginRegistration"/>
-            <TextBox BorderThickness="0.1" Grid.Row="3" Width="400" Background="Transparent" Foreground="White" Text="Password" FontSize="35" VerticalContentAlignment="Center" x:Name="tbPasswordRegistration"/>
-            <Button x:Name="btnEnterRegistration" BorderThickness="0" Grid.Row="4" Background="#FE6584" Foreground="White" Content="Enter" FontSize="25" FontWeight="DemiBold" Width="400" Margin="5" Click="btnEnterRegistration_Click">
+            <Label Grid.Row="0" Content="Registration" Foreground="White" FontSize="35" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="DemiBold"/>
+            <TextBox BorderThickness="0.1" Grid.Row="1" Width="400" Background="Transparent" Foreground="White" Text="Name" FontSize="35" VerticalContentAlignment="Center" x:Name="tbNameRegistration"/>
+            <TextBox BorderThickness="0.1" Grid.Row="2" Width="400" Background="Transparent" Foreground="White" Text="Surname" FontSize="35" VerticalContentAlignment="Center" x:Name="tbSurnameRegistration"/>
+            <TextBox BorderThickness="0.1" Grid.Row="3" Width="400" Background="Transparent" Foreground="White" Text="Login" FontSize="35" VerticalContentAlignment="Center" x:Name="tbLoginRegistration"/>
+            <TextBox BorderThickness="0.1" Grid.Row="4" Width="400" Background="Transparent" Foreground="White" Text="Mail" FontSize="35" VerticalContentAlignment="Center" x:Name="tbMailRegistration"/>
+            <TextBox BorderThickness="0.1" Grid.Row="5" Width="400" Background="Transparent" Foreground="White" Text="Phone" FontSize="35" VerticalContentAlignment="Center" x:Name="tbPhoneRegistration"/>
+            <TextBox BorderThickness="0.1" Grid.Row="6" Width="400" Background="Transparent" Foreground="White" Text="Password" FontSize="35" VerticalContentAlignment="Center" x:Name="tbPasswordRegistration"/>
+            <TextBox BorderThickness="0.1" Grid.Row="7" Width="400" Background="Transparent" Foreground="White" Text="Password Repeat" FontSize="35" VerticalContentAlignment="Center" x:Name="tbPasswordRepeatRegistration"/>
+            <Calendar BorderThickness="0.1" Grid.Row="8" Grid.RowSpan="2" VerticalAlignment="Center" Width="400" Background="Transparent" Foreground="White" FontSize="35" VerticalContentAlignment="Center" x:Name="cBirthDateRegistration"/>
+            <Button x:Name="btnEnterRegistration" BorderThickness="0" Grid.Row="10" Background="#FE6584" Foreground="White" Content="Enter" FontSize="25" FontWeight="DemiBold" Width="400" Margin="5" Click="btnEnterRegistration_Click">
                 <Button.Style>
                     <Style TargetType="Button">
                         <Setter Property="TextElement.FontFamily" Value="Font/#Dosis"/>
@@ -102,8 +148,8 @@
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>

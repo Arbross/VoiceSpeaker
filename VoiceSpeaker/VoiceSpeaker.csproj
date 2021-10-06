@@ -56,12 +56,25 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CodeIdentityWindow.xaml.cs">
+      <DependentUpon>CodeIdentityWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RegistrationWindow.xaml.cs">
       <DependentUpon>RegistrationWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPasswordWindow.xaml.cs">
+      <DependentUpon>ResetPasswordWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SendEmailWindow.xaml.cs">
+      <DependentUpon>SendEmailWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Speaker\Speaker.cs" />
     <Compile Include="Tools\Tools.cs" />
     <Compile Include="ViewModel\ViewModel.cs" />
+    <Page Include="CodeIdentityWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -75,6 +88,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="RegistrationWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResetPasswordWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SendEmailWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
