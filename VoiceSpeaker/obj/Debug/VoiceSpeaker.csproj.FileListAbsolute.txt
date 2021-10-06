@@ -13,12 +13,5 @@ C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeake
 C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker.exe
 C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker.pdb
 C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker.csproj.AssemblyReference.cache
-C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\bin\Debug\EntityFramework.dll
-C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\bin\Debug\Newtonsoft.Json.dll
-C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\bin\Debug\EntityFramework.xml
-C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\bin\Debug\Newtonsoft.Json.xml
-C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\obj\Debug\VoiceSpeaker.csproj.CopyComplete
 C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\obj\Debug\RegistrationWindow.g.cs
 C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\obj\Debug\RegistrationWindow.baml
