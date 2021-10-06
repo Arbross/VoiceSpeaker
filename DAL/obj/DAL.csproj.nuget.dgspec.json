@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj": {}
+    "C:\\Users\\ronni\\Source\\Repos\\VoiceSpeakerTest\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj": {
+    "C:\\Users\\ronni\\Source\\Repos\\VoiceSpeakerTest\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ronni\\Source\\Repos\\VoiceSpeakerTest\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\USER\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Source\\Repos\\VoiceSpeaker\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\ronni\\Source\\Repos\\VoiceSpeakerTest\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\ronni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ronni\\Source\\Repos\\VoiceSpeakerTest\\DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "H:\\VisualStudio\\SDK\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ronni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -64,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
