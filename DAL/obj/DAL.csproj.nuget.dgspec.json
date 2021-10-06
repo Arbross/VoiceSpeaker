@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victor\\Desktop\\Projects\\DAL\\DAL.csproj": {}
+    "C:\\Users\\USER\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victor\\Desktop\\Projects\\DAL\\DAL.csproj": {
+    "C:\\Users\\USER\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victor\\Desktop\\Projects\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\victor\\Desktop\\Projects\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victor\\Desktop\\Projects\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Source\\Repos\\VoiceSpeaker\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }
