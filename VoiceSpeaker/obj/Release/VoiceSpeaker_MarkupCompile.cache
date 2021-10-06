@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\obj\Release\
+C:\Users\victor\Desktop\Projects\VoiceSpeaker\obj\Release\
 VoiceSpeaker
 none
 false
 TRACE
-C:\Users\victor\Desktop\Projects\VoiceSpeaker\VoiceSpeaker\App.xaml
-2-1442674848
+C:\Users\victor\Desktop\Projects\VoiceSpeaker\App.xaml
+5-824519647
 
-91132152266
+12-785344825
 1479614423
-MainWindow.xaml;RegistrationWindow.xaml;
+CodeIdentityWindow.xaml;MainWindow.xaml;RegistrationWindow.xaml;ResetPasswordWindow.xaml;SendEmailWindow.xaml;
 
 True
 

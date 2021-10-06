@@ -1067,11 +1067,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victor\\Desktop\\Projects\\VoiceSpeaker\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\victor\\Desktop\\Projects\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\victor\\Desktop\\Projects\\VoiceSpeaker\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\victor\\Desktop\\Projects\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\victor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victor\\Desktop\\Projects\\VoiceSpeaker\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\victor\\Desktop\\Projects\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
