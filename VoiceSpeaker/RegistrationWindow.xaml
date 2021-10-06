@@ -26,7 +26,7 @@
             <Button Click="btnClose_Click" x:Name="btnClose" BorderThickness="0" Grid.Column="8" Content="X" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
             <Button Click="btnFullSize_Click" x:Name="btnFullSize" BorderThickness="0" Grid.Column="7" Content="@" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
             <Button Click="btnHide_Click" x:Name="btnHide" BorderThickness="0" Grid.Column="6" Content="-" Background="Transparent" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
-            <Label Grid.Column="0" x:Name="lbTestOutput" Grid.ColumnSpan="6" Background="Transparent" MouseDown="Button_MouseDown" BorderThickness="0" FontSize="15" FontWeight="DemiBold" Foreground="White"/>
+            <Label Grid.Column="0" Grid.ColumnSpan="6" Background="Transparent" MouseDown="Button_MouseDown" BorderThickness="0" MouseMove="Button_MouseMove" MouseUp="Button_MouseUp"/>
         </Grid>
         <Grid x:Name="WinLogin" Visibility="Hidden" Grid.Row="1">
             <Grid.RowDefinitions>
