@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,6 @@ using System.Windows.Input;
 
 namespace VoiceSpeaker
 {
-    /// <summary>
-    /// Interaction logic for RegistrationWindow.xaml
-    /// </summary>
     public partial class RegistrationWindow : Window
     {
         private bool isFullMaximized = false; // Is Maximized
@@ -19,6 +17,7 @@ namespace VoiceSpeaker
         public RegistrationWindow()
         {
             InitializeComponent();
+
         }
         // Close window
         private void btnClose_Click(object sender, RoutedEventArgs e)
