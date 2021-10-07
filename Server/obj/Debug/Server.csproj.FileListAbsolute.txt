@@ -12,3 +12,17 @@ C:\Users\victor\Desktop\Projects\VoiceSpeaker\Server\obj\Debug\Server.csproj.Cor
 C:\Users\victor\Desktop\Projects\VoiceSpeaker\Server\obj\Debug\Server.csproj.CopyComplete
 C:\Users\victor\Desktop\Projects\VoiceSpeaker\Server\obj\Debug\Server.exe
 C:\Users\victor\Desktop\Projects\VoiceSpeaker\Server\obj\Debug\Server.pdb
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\bin\Debug\Server.exe.config
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\bin\Debug\Server.exe
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\bin\Debug\Server.pdb
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\bin\Debug\EntityFramework.dll
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\bin\Debug\EntityFramework.xml
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.exe
+C:\Users\victor\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.pdb
