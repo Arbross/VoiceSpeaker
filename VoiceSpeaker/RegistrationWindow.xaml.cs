@@ -14,10 +14,8 @@ namespace VoiceSpeaker
     public partial class RegistrationWindow : Window
     {
         private bool isFullMaximized = false; // Is Maximized
-        private bool clicado = false; // Is Clicked
-        private Point lm = new Point(); // Point
-        Accaunt p1;
-        VoiceSpeakerModel md1;
+        private Account p1;
+        private SpeakerModel md1;
         public string Code { get; set; }
 
         //Generates random symbols to generate a confirmation code
@@ -75,23 +73,10 @@ namespace VoiceSpeaker
         // Move (fix later)
         private void Button_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            clicado = true;
-            this.lm = Mouse.GetPosition(this);
-        }
-
-        private void Button_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (clicado)
+            if (e.ChangedButton == MouseButton.Left)
             {
-                this.Left += (Mouse.GetPosition(this).X - this.lm.X);
-                this.Top += (Mouse.GetPosition(this).Y - this.lm.Y);
-                this.lm = Mouse.GetPosition(this);
+                this.DragMove();
             }
-        }
-
-        private void Button_MouseUp(object sender, MouseButtonEventArgs e)
-        {
-            clicado = false;
         }
 
         private void btnEnterRegistration_Click(object sender, RoutedEventArgs e)
@@ -113,11 +98,11 @@ namespace VoiceSpeaker
                 z = 0;
             }
 
-            md1 = new VoiceSpeakerModel();
+            md1 = new SpeakerModel();
 
             //Checking for compatibility of login and password with the same topic as in the database
-            var mod1 = md1.Accaunts.FirstOrDefault(c => c.Login == tbLoginRegistration.Text);
-            var mod2 = md1.Accaunts.FirstOrDefault(s => s.Mail == tbMailRegistration.Text);
+            var mod1 = md1.Accounts.FirstOrDefault(c => c.Login == tbLoginRegistration.Text);
+            var mod2 = md1.Accounts.FirstOrDefault(s => s.Mail == tbMailRegistration.Text);
 
             //Checking the compatibility of the written login with the one in the database
             //Needed to avoid duplicate login
@@ -148,13 +133,13 @@ namespace VoiceSpeaker
                                     //Checking to avoid an empty data field in the date of birth of a new account
                                     if (cBirthDateRegistration.SelectedDate != null)
                                     {
-                                        CodeIdentityWindow.Phones = tbPhoneRegistration.Text;
-                                        CodeIdentityWindow.Passw = tbPasswordRegistration.Text;
-                                        CodeIdentityWindow.Names = tbNameRegistration.Text;
-                                        CodeIdentityWindow.SurNames = tbSurnameRegistration.Text;
-                                        CodeIdentityWindow.Dataes = (DateTime)cBirthDateRegistration.SelectedDate;
-                                        CodeIdentityWindow.Maile = tbMailRegistration.Text;
-                                        CodeIdentityWindow.Logi = tbLoginRegistration.Text;
+                                        CodeIdentityWindow.Phone = tbPhoneRegistration.Text;
+                                        CodeIdentityWindow.Password = tbPasswordRegistration.Text;
+                                        CodeIdentityWindow.Name = tbNameRegistration.Text;
+                                        CodeIdentityWindow.Surname = tbSurnameRegistration.Text;
+                                        CodeIdentityWindow.Date = (DateTime)cBirthDateRegistration.SelectedDate;
+                                        CodeIdentityWindow.Mail = tbMailRegistration.Text;
+                                        CodeIdentityWindow.Login = tbLoginRegistration.Text;
 
                                         Code = RandomString(6);
                                         CodeIdentityWindow.CodeR = Code;
@@ -162,44 +147,49 @@ namespace VoiceSpeaker
                                         //Sending a code to the mail to confirm registration
                                         client.SendMailAsync("ronnieplayyt@gmail.com", tbMailRegistration.Text, "Confirmation of registration", $"Confirm your registration with the code - {Code}!");
 
-                                        this.Close();
-
                                         CodeIdentityWindow ciw = new CodeIdentityWindow();
                                         ciw.Show();
                                     }
                                     else
                                     {
                                         MessageBox.Show("You have not chosen your date of birth!", "Error Date of Birth", MessageBoxButton.OK, MessageBoxImage.Error);
+                                        Tools.ErrorLogSave("You have not chosen your date of birth!");
                                     }
                                 }
                                 else
                                 {
                                     MessageBox.Show("The repeated password does not match the first sentence!", "Error repeat password", MessageBoxButton.OK, MessageBoxImage.Error);
+                                    Tools.ErrorLogSave("The repeated password does not match the first sentence!");
                                 }
                             }
                             else
                             {
                                 MessageBox.Show("Your password has no more than 6 characters!", "Error Password", MessageBoxButton.OK, MessageBoxImage.Error);
+                                Tools.ErrorLogSave("Your password has no more than 6 characters!");
                             }
                         }
                         else
                         {
                             MessageBox.Show("Some row was not filled!", "Error in filling lines", MessageBoxButton.OK, MessageBoxImage.Error);
+                            Tools.ErrorLogSave("Some row was not filled!");
                         }
                     }
                     else
                     {
                         MessageBox.Show("The entered mail is not correct!", "Error Mail", MessageBoxButton.OK, MessageBoxImage.Error);
+                        Tools.ErrorLogSave("The entered mail is not correct!");
                     }
                 }
                 else
                 {
                     MessageBox.Show("The mail entered already exists!", "Error Mail", MessageBoxButton.OK, MessageBoxImage.Error);
+                    Tools.ErrorLogSave("The mail entered already exists!");
                 }
             }
             else
             {
                 MessageBox.Show("The login you entered already exists!", "Error Login", MessageBoxButton.OK, MessageBoxImage.Error);
+                Tools.ErrorLogSave("The login you entered already exists!");
             }
         }
 
@@ -208,28 +198,29 @@ namespace VoiceSpeaker
             WinLogin.Visibility = Visibility.Hidden;
             WinRegistration.Visibility = Visibility.Visible;
 
-            md1 = new VoiceSpeakerModel();
+            md1 = new SpeakerModel();
             string mailT = null;
 
             //Search for mail via login from the database
-            using (VoiceSpeakerModel model = new VoiceSpeakerModel())
+            using (SpeakerModel model = new SpeakerModel())
             {
-                p1 = model.Accaunts.Where(c => c.Login == tbLoginLogin.Text).FirstOrDefault();
+                p1 = model.Accounts.Where(c => c.Login == tbLoginLogin.Text).FirstOrDefault();
 
                 if (p1 != null)
                 {
-                    model.Accaunts.Attach(p1);
+                    model.Accounts.Attach(p1);
                     mailT = p1.Mail;
                 }
                 else
                 {
                     MessageBox.Show("This account does not have mail", "Error Mail", MessageBoxButton.OK, MessageBoxImage.Error);
+                    Tools.ErrorLogSave("This account does not have mail");
                 }
             }
 
             //Checking for compatibility of login and password with the same topic as in the database
-            var Logi = md1.Accaunts.FirstOrDefault(t => t.Login == tbLoginLogin.Text);
-            var Passw = md1.Accaunts.FirstOrDefault(t => t.Password == tbPasswordLogin.Text);
+            var Logi = md1.Accounts.FirstOrDefault(t => t.Login == tbLoginLogin.Text);
+            var Passw = md1.Accounts.FirstOrDefault(t => t.Password == tbPasswordLogin.Text);
 
             //Checking for compatibility of login and password with the same topic as in the database
             if (Logi != null)
@@ -249,6 +240,7 @@ namespace VoiceSpeaker
                 else
                 {
                     MessageBox.Show("You entered an incorrect password", "Error Password", MessageBoxButton.OK, MessageBoxImage.Error);
+                    Tools.ErrorLogSave("You entered an incorrect password");
 
                     //Sending a notification to the user about an attempt to log into a person's account for safety
                     client.SendMailAsync("ronnieplayyt@gmail.com", mailT, "Notification", "An attempt was made to enter your personal account!");
@@ -257,6 +249,7 @@ namespace VoiceSpeaker
             else
             {
                 MessageBox.Show("You entered an invalid login", "Error Login", MessageBoxButton.OK, MessageBoxImage.Error);
+                Tools.ErrorLogSave("You entered an invalid login");
             }
         }
 

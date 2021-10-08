@@ -20,7 +20,7 @@ namespace VoiceSpeaker
     public partial class SendEmailWindow : Window
     {
         private bool isFullMaximized = false; // Is Maximized
-        VoiceSpeakerModel model;
+        private SpeakerModel model;
 
         //Generates random symbols to generate a confirmation code
         public string Code = null;
@@ -77,10 +77,10 @@ namespace VoiceSpeaker
         private void btnSendRequest_Click(object sender, RoutedEventArgs e)
         {
 
-            model = new VoiceSpeakerModel();
+            model = new SpeakerModel();
 
             //Checking for entered mail in databases
-            var mailFOD = model.Accaunts.FirstOrDefault(t => t.Mail == tbEmail.Text);
+            var mailFOD = model.Accounts.FirstOrDefault(t => t.Mail == tbEmail.Text);
             if (mailFOD != null)
             {
                 Code = RandomString(6);

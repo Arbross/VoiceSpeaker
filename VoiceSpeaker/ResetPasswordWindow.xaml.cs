@@ -13,7 +13,7 @@ namespace VoiceSpeaker
     public partial class ResetPasswordWindow : Window
     {
         private bool isFullMaximized = false; // Is Maximized
-        Accaunt p1;
+        private Account p1;
         public static string Mail { get; set; }
 
         public ResetPasswordWindow()
@@ -66,13 +66,13 @@ namespace VoiceSpeaker
                 if (tbNewPassword.Text.Length == 6)
                 {
                     //Connecting to the database, finding and changing the user's password
-                    using (VoiceSpeakerModel model = new VoiceSpeakerModel())
+                    using (SpeakerModel model = new SpeakerModel())
                     {
-                        p1 = model.Accaunts.Where(c => c.Mail == Mail).FirstOrDefault();
+                        p1 = model.Accounts.Where(c => c.Mail == Mail).FirstOrDefault();
 
                         if (p1 != null)
                         {
-                            model.Accaunts.Attach(p1);
+                            model.Accounts.Attach(p1);
                             p1.Password = tbNewPassword.Text;
                             model.SaveChangesAsync();
 
@@ -86,6 +86,7 @@ namespace VoiceSpeaker
                         else
                         {
                             MessageBox.Show("Mail is not tied to any account", "Mail error", MessageBoxButton.OK, MessageBoxImage.Error);
+                            Tools.ErrorLogSave("Mail is not tied to any account");
                         }
                     }
                     Close();
@@ -93,11 +94,13 @@ namespace VoiceSpeaker
                 else
                 {
                     MessageBox.Show("Your password has no more than 6 characters!", "Change your password", MessageBoxButton.OK, MessageBoxImage.Error);
+                    Tools.ErrorLogSave("Your password has no more than 6 characters!");
                 }
             }
             else
             {
                 MessageBox.Show("You entered the wrong password again!", "Change your password", MessageBoxButton.OK, MessageBoxImage.Error);
+                Tools.ErrorLogSave("You entered the wrong password again!");
             }
         }
     }

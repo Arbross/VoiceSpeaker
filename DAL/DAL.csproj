@@ -53,11 +53,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Datebase Classes\Accaunt.cs" />
+    <Compile Include="Datebase Classes\Account.cs" />
     <Compile Include="Intializer\DbIntializer.cs" />
-    <Compile Include="Model\VoiceSpeakerModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TempDeleteLaterWhenYouCreateSomeClasses.cs" />
+    <Compile Include="Model\SpeakerModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

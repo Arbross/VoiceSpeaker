@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class Accaunt
+    public class Account
     {
         [Key]
         public int Id { get; set; }
