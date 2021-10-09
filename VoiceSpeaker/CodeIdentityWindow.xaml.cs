@@ -78,6 +78,8 @@ namespace VoiceSpeaker
                 //Opens a new form to change password
                 ResetPasswordWindow rpw = new ResetPasswordWindow();
                 rpw.Show();
+
+                Close();
             }
             else if (tbCodeIdentity.Text == CodeR)
             {
@@ -89,8 +91,8 @@ namespace VoiceSpeaker
                 model.SaveChangesAsync();
 
                 MessageBox.Show("The code is correct and your account has been created.", "Successful code", MessageBoxButton.OK, MessageBoxImage.Information);
-
-                this.Close();
+                
+                Close();
             }
             else
             {

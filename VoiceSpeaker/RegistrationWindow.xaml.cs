@@ -79,13 +79,11 @@ namespace VoiceSpeaker
             }
         }
 
+        //Registering a new account
         private void btnEnterRegistration_Click(object sender, RoutedEventArgs e)
         {
             WinRegistration.Visibility = Visibility.Hidden;
             WinLogin.Visibility = Visibility.Visible;
-
-            //Registering a new account
-
 
             //Checking for the presence of "@gmail.com" in the text
             int z = 0;
@@ -108,36 +106,34 @@ namespace VoiceSpeaker
             //Needed to avoid duplicate login
             if (mod1 == null)
             {
-
                 //Checking the compatibility of the written mail with the one in the database
                 //Needed to avoid duplicate mail
                 if (mod2 == null)
                 {
-
                     //Checking for the presence of "@gmail.com" in the text
                     if (z == 1)
                     {
-
                         //Checking to avoid creating empty data fields in the database
                         if (tbPhoneRegistration.Text != " " && tbNameRegistration.Text != " " && tbPasswordRegistration.Text != " " && tbPasswordRepeatRegistration.Text != " " && tbSurnameRegistration.Text != " ")
                         {
-
                             //Checking whether a password contains six or more characters
                             if (tbPasswordRegistration.Text.Length >= 6)
                             {
-
                                 //Checking if the entered password matches the repeated password
                                 if (tbPasswordRegistration.Text == tbPasswordRepeatRegistration.Text)
                                 {
-
                                     //Checking to avoid an empty data field in the date of birth of a new account
                                     if (cBirthDateRegistration.SelectedDate != null)
                                     {
+                                        var Date = (DateTime)cBirthDateRegistration.SelectedDate;
+                                        Date.ToString("yyyy-MM-dd");
+                                        Date.ToShortDateString();
+
                                         CodeIdentityWindow.Phone = tbPhoneRegistration.Text;
                                         CodeIdentityWindow.Password = tbPasswordRegistration.Text;
                                         CodeIdentityWindow.Name = tbNameRegistration.Text;
                                         CodeIdentityWindow.Surname = tbSurnameRegistration.Text;
-                                        CodeIdentityWindow.Date = (DateTime)cBirthDateRegistration.SelectedDate;
+                                        CodeIdentityWindow.Date = Date;
                                         CodeIdentityWindow.Mail = tbMailRegistration.Text;
                                         CodeIdentityWindow.Login = tbLoginRegistration.Text;
 
@@ -232,10 +228,10 @@ namespace VoiceSpeaker
                     //Sending a notification to the user about the entry into a person's account for safety
                     client.SendMailAsync("ronnieplayyt@gmail.com", mailT, "Notification", "Your account has been logged in!");
 
-                    this.Close();
-
                     MainWindow mw = new MainWindow();
                     mw.Show();
+
+                    Close();
                 }
                 else
                 {

@@ -103,10 +103,10 @@ namespace VoiceSpeaker
                 ResetPasswordWindow.Mail = tbEmail.Text;
                 CodeIdentityWindow.CodeCP = Code;
 
-                this.Close();
-
                 CodeIdentityWindow ciw = new CodeIdentityWindow();
                 ciw.Show();
+
+                Close();
             }
         }
     }
