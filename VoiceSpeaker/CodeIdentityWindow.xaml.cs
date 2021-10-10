@@ -72,14 +72,13 @@ namespace VoiceSpeaker
             if (tbCodeIdentity.Text == CodeCP)
             {
                 //Code confirmation to change user password
-
                 MessageBox.Show("The code is correct and you can change your password.", "Successful code", MessageBoxButton.OK, MessageBoxImage.Information);
 
                 //Opens a new form to change password
                 ResetPasswordWindow rpw = new ResetPasswordWindow();
                 rpw.Show();
 
-                Close();
+                this.Close();
             }
             else if (tbCodeIdentity.Text == CodeR)
             {
@@ -92,7 +91,10 @@ namespace VoiceSpeaker
 
                 MessageBox.Show("The code is correct and your account has been created.", "Successful code", MessageBoxButton.OK, MessageBoxImage.Information);
                 
-                Close();
+                this.Close();
+
+                RegistrationWindow.registrationWindow.WinRegistration.Visibility = Visibility.Hidden;
+                RegistrationWindow.registrationWindow.WinLogin.Visibility = Visibility.Visible;
             }
             else
             {

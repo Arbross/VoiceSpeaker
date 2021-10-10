@@ -13,13 +13,17 @@ namespace VoiceSpeaker
 {
     public partial class RegistrationWindow : Window
     {
+        public static RegistrationWindow registrationWindow;
+
         private bool isFullMaximized = false; // Is Maximized
         private Account p1;
         private SpeakerModel md1;
+
         public string Code { get; set; }
 
         //Generates random symbols to generate a confirmation code
         private static Random random = new Random();
+
         public static string RandomString(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -28,7 +32,7 @@ namespace VoiceSpeaker
         }
 
         //SMTP creation
-        SmtpClient client = new SmtpClient()
+        private SmtpClient client = new SmtpClient()
         {
             Host = "smtp.gmail.com",
             Port = 587,
@@ -42,7 +46,9 @@ namespace VoiceSpeaker
         {
             InitializeComponent();
 
+            registrationWindow = this;
         }
+
         // Close window
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
@@ -82,9 +88,6 @@ namespace VoiceSpeaker
         //Registering a new account
         private void btnEnterRegistration_Click(object sender, RoutedEventArgs e)
         {
-            WinRegistration.Visibility = Visibility.Hidden;
-            WinLogin.Visibility = Visibility.Visible;
-
             //Checking for the presence of "@gmail.com" in the text
             int z = 0;
             if (tbMailRegistration.Text.Contains("@gmail.com"))
@@ -191,9 +194,6 @@ namespace VoiceSpeaker
 
         private void btnEnterLogin_Click(object sender, RoutedEventArgs e)
         {
-            WinLogin.Visibility = Visibility.Hidden;
-            WinRegistration.Visibility = Visibility.Visible;
-
             md1 = new SpeakerModel();
             string mailT = null;
 
@@ -231,7 +231,7 @@ namespace VoiceSpeaker
                     MainWindow mw = new MainWindow();
                     mw.Show();
 
-                    Close();
+                    this.Hide();
                 }
                 else
                 {

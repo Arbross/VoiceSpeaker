@@ -10,3 +10,15 @@ C:\Users\ronni\Source\Repos\VoiceSpeaker\DAL\obj\Debug\DAL.csproj.CoreCompileInp
 C:\Users\ronni\Source\Repos\VoiceSpeaker\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\ronni\Source\Repos\VoiceSpeaker\DAL\obj\Debug\DAL.dll
 C:\Users\ronni\Source\Repos\VoiceSpeaker\DAL\obj\Debug\DAL.pdb
+C:\Users\victor\Desktop\Новая папка\DAL\bin\Debug\DAL.dll.config
+C:\Users\victor\Desktop\Новая папка\DAL\bin\Debug\DAL.dll
+C:\Users\victor\Desktop\Новая папка\DAL\bin\Debug\DAL.pdb
+C:\Users\victor\Desktop\Новая папка\DAL\bin\Debug\EntityFramework.dll
+C:\Users\victor\Desktop\Новая папка\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\victor\Desktop\Новая папка\DAL\bin\Debug\EntityFramework.xml
+C:\Users\victor\Desktop\Новая папка\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\victor\Desktop\Новая папка\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\victor\Desktop\Новая папка\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\victor\Desktop\Новая папка\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\victor\Desktop\Новая папка\DAL\obj\Debug\DAL.dll
+C:\Users\victor\Desktop\Новая папка\DAL\obj\Debug\DAL.pdb
