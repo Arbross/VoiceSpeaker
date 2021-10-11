@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
@@ -67,7 +68,7 @@ namespace VoiceSpeaker
             }
         }
 
-        private void btnCodeConfirm_Click(object sender, RoutedEventArgs e)
+        private async void btnCodeConfirm_Click(object sender, RoutedEventArgs e)
         {
             if (tbCodeIdentity.Text == CodeCP)
             {
@@ -87,7 +88,7 @@ namespace VoiceSpeaker
                 model = new SpeakerModel();
                 //Writing all data to database
                 model.Accounts.Add(new Account() { Login = Login, Mail = Mail, Password = Password, Phone = Phone, Name = Name, Surname = Surname, PublishDate = Date });
-                model.SaveChangesAsync();
+                await Task.Run(()=>model.SaveChangesAsync());
 
                 MessageBox.Show("The code is correct and your account has been created.", "Successful code", MessageBoxButton.OK, MessageBoxImage.Information);
                 

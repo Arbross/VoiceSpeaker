@@ -98,3 +98,34 @@ C:\Users\victor\Desktop\Новая папка\VoiceSpeaker\obj\Debug\VoiceSpeake
 C:\Users\victor\Desktop\Новая папка\VoiceSpeaker\obj\Debug\VoiceSpeaker.csproj.CopyComplete
 C:\Users\victor\Desktop\Новая папка\VoiceSpeaker\obj\Debug\VoiceSpeaker.exe
 C:\Users\victor\Desktop\Новая папка\VoiceSpeaker\obj\Debug\VoiceSpeaker.pdb
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\bin\Debug\VoiceSpeaker.exe.config
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\bin\Debug\VoiceSpeaker.exe
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\bin\Debug\VoiceSpeaker.pdb
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\bin\Debug\DAL.dll
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\bin\Debug\EntityFramework.dll
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\bin\Debug\DAL.pdb
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\bin\Debug\DAL.dll.config
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\bin\Debug\EntityFramework.xml
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\VoiceSpeaker.csproj.AssemblyReference.cache
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\CodeIdentityWindow.g.cs
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\MainWindow.g.cs
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\RegistrationWindow.g.cs
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\ResetPasswordWindow.g.cs
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\SendEmailWindow.g.cs
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\App.g.cs
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\VoiceSpeaker_MarkupCompile.cache
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\VoiceSpeaker_MarkupCompile.lref
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\CodeIdentityWindow.baml
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\MainWindow.baml
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\RegistrationWindow.baml
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\ResetPasswordWindow.baml
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\SendEmailWindow.baml
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\VoiceSpeaker.g.resources
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\VoiceSpeaker.Properties.Resources.resources
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\VoiceSpeaker.csproj.GenerateResource.cache
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\VoiceSpeaker.csproj.CoreCompileInputs.cache
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\VoiceSpeaker.csproj.CopyComplete
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\VoiceSpeaker.exe
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\VoiceSpeaker\obj\Debug\VoiceSpeaker.pdb
