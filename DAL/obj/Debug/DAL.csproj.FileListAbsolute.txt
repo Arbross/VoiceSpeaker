@@ -22,3 +22,15 @@ C:\Users\victor\Desktop\Новая папка\DAL\obj\Debug\DAL.csproj.CoreCompi
 C:\Users\victor\Desktop\Новая папка\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\victor\Desktop\Новая папка\DAL\obj\Debug\DAL.dll
 C:\Users\victor\Desktop\Новая папка\DAL\obj\Debug\DAL.pdb
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\bin\Debug\DAL.dll.config
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\bin\Debug\DAL.dll
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\bin\Debug\DAL.pdb
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\obj\Debug\DAL.dll
+C:\Users\ronni\Source\Repos\VoiceSpeaker1\DAL\obj\Debug\DAL.pdb
