@@ -43,3 +43,22 @@ C:\Users\ronni\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.csproj.CoreComp
 C:\Users\ronni\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.csproj.CopyComplete
 C:\Users\ronni\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.exe
 C:\Users\ronni\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.pdb
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\Server.exe.config
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\Server.exe
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\Server.pdb
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\DAL.dll
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\EntityFramework.dll
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\DAL.pdb
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\DAL.dll.config
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\EntityFramework.xml
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\victor\Desktop\Новая папка\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\victor\Desktop\Новая папка\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\victor\Desktop\Новая папка\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\victor\Desktop\Новая папка\Server\obj\Debug\Server.exe
+C:\Users\victor\Desktop\Новая папка\Server\obj\Debug\Server.pdb
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\AudioSwitcher.AudioApi.CoreAudio.dll
+C:\Users\victor\Desktop\Новая папка\Server\bin\Debug\AudioSwitcher.AudioApi.dll
