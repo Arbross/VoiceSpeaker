@@ -53,13 +53,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClientCommand\ClientCommand.cs" />
     <Compile Include="Datebase Classes\Account.cs" />
     <Compile Include="GeneratingCode\GeneratingCode.cs" />
     <Compile Include="Intializer\DbIntializer.cs" />
     <Compile Include="Login\Login.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\SpeakerModel.cs" />
-    <Compile Include="Registration\Registration.cs" />
+    <Compile Include="RegistrationLogin\LoginInfo.cs" />
+    <Compile Include="RegistrationLogin\RegistrationInfo.cs" />
+    <Compile Include="RegistrationLogin\Registration.cs" />
     <Compile Include="SMTPCreating\SMTPCreating.cs" />
     <Compile Include="Tools\Tools.cs" />
   </ItemGroup>
