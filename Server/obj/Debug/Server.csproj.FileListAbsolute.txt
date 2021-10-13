@@ -43,3 +43,22 @@ C:\Users\ronni\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.csproj.CoreComp
 C:\Users\ronni\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.csproj.CopyComplete
 C:\Users\ronni\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.exe
 C:\Users\ronni\Source\Repos\VoiceSpeaker\Server\obj\Debug\Server.pdb
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\Server.exe.config
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\Server.exe
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\Server.pdb
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\AudioSwitcher.AudioApi.CoreAudio.dll
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\AudioSwitcher.AudioApi.dll
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\DAL.dll
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\EntityFramework.dll
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\DAL.pdb
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\DAL.dll.config
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\EntityFramework.xml
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\source\repos\Voice Speaker\Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\USER\source\repos\Voice Speaker\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\Voice Speaker\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Voice Speaker\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\USER\source\repos\Voice Speaker\Server\obj\Debug\Server.exe
+C:\Users\USER\source\repos\Voice Speaker\Server\obj\Debug\Server.pdb
