@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\TestConverter\\TestConverter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\Server\\Server.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\Server\\Server.csproj",
+        "projectName": "Server",
+        "projectPath": "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\Server\\Server.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\TestConverter\\TestConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\TestConverter\\TestConverter.csproj",
+        "projectName": "TestConverter",
+        "projectPath": "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\TestConverter\\TestConverter.csproj",
+        "packagesPath": "C:\\Users\\victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\TestConverter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\Server\\Server.csproj": {
+                "projectPath": "C:\\Users\\victor\\Source\\Repos\\VoiceSpeaker\\Server\\Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
